@@ -1,0 +1,52 @@
+
+.dark-background{
+    background-color: #1F2937;
+}
+
+
+.grey-background{
+    background-color: #E5E7EB;
+}
+
+.call-to-action-background {
+    background-color: #3882F6;
+}
+
+.container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-content:center;
+}
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px
+}
+
+.navbar {
+    justify-content: content-distribution;
+}
+
+.HeroLogoText{
+    font-size: 24px;
+    color : #F9FAF8;
+
+}
+
+.nav-links, .HeroSecondaryText {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+button{
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border:none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
