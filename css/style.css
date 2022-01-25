@@ -25,7 +25,6 @@ ul {
     gap: 16px;
 }
 
-
 .navbar {
     display: flex;
     padding: 18px;
@@ -43,4 +42,17 @@ ul {
 .nav-logo {
     font-size: 24px;
     font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    background-color: var(--dark-background-color);
+}
+.hero-main {
+    font-size: 48px;
+    color: var(--light-text-color);
+}
+.hero-secondary {
+    color: var(--grey-color);
+    font-size: 18px;
 }
