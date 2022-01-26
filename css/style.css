@@ -164,12 +164,39 @@ ul {
     align-self: flex-end;
 }
 
-.call-to-action {
+.call-to-action-outer {
     display: flex;
+    justify-content: center;
+    padding: 40px;
 
 }
+.call-to-action-inner {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--call-to-action-color);
+    color: var(--light-text-color);
+    border-radius: 8px;
+    padding: 40px;
+}
 
+.call-to-action-inner-left  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
 
+.inner-left {
+    display:flex;
+    margin: 0px 40px 0px 0px;
+    padding:0;
+}
+
+.call-to-action-inner .button {
+    border: 1px solid var(--light-text-color);
+}
 
 footer {
     background-color: var(--dark-background-color);
