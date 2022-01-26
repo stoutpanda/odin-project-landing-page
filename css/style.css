@@ -129,6 +129,7 @@ ul {
     color:var(--dark-background-color);
     flex-wrap: wrap;
     max-width: 250px;
+    width: 160px;
 
 }
 
