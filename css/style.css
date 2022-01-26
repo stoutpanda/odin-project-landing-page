@@ -163,6 +163,7 @@ ul {
     font-weight: bold;
     text-align: end;
     align-self: flex-end;
+    justify-content: flex-end;
 }
 
 .call-to-action-outer {
